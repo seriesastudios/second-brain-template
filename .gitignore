@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Navigation logs (optional — uncomment to track in git)
+# Claude/Navigation Logs/*.csv
+
+# Daily notes and logs (optional — uncomment to exclude from git)
+# Claude/Daily Notes/
+# Claude/Weekly Logs/
+# Claude/Monthly Archives/
+
+# Claude Code local settings (user-specific permissions)
+.claude/settings.local.json
