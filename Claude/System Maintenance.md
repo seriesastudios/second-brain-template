@@ -28,6 +28,11 @@ Update [[Task Management/INDEX]] if needed:
 - Identify "orphaned information" that exists but isn't connected
 - Check INDEX.md files: Ensure they're up-to-date with current projects and docs
 
+**Protocol Adherence:**
+- Review recent file operations: using edit_file vs write_file correctly?
+- Navigation-first compliance: are we finding things through links or defaulting to search?
+- Tool selection: any instances of using wrong filesystem tools?
+
 **Document in Weekly Log:**
 - File drift status (clean / minor issues / needs attention)
 - Link health (all paths working / some broken links)
@@ -35,6 +40,20 @@ Update [[Task Management/INDEX]] if needed:
 
 ### 4. Suggest Adjustments
 Based on patterns observed, suggest improvements to system structure or workflows.
+
+---
+
+## Weekly Monitoring (Continuous)
+
+**Dashboard Staleness:**
+- Notice when Task Management INDEX is stale (>1 week old)
+- Suggest updates when priorities have shifted
+- Remind user on Sundays: "Time to create this week's log?"
+
+**System Health:**
+- Notice when logging discipline has lapsed
+- Flag when navigation paths might be broken
+- Proactively suggest maintenance before drift becomes significant
 
 ---
 
@@ -65,6 +84,15 @@ Based on patterns observed, suggest improvements to system structure or workflow
 - Small networked files, not monoliths
 
 **User's instinct for simplicity is right. Follow their lead, not your complexity bias.**
+
+---
+
+## System Benchmarks
+
+<!-- These files will be created during your first quarterly check -->
+**[[System Benchmarks & Health Checks]]** — Prompts for periodic health checks and navigation benchmarks
+
+**[[System Health Log]]** — Running log of health check results
 
 ---
 

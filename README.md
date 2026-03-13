@@ -110,28 +110,20 @@ my-second-brain/
 
 ## Customization
 
-### Adding Work Areas
+### It's Self-Organizing
 
-Create a new top-level folder with an `INDEX.md`:
-```
-mkdir "My Area"
-```
-Then tell Claude: "Set up a new work area called My Area for [description]"
+You don't create folders or files manually. Just tell Claude what you need:
 
-### Templates
+- "I'm starting a new project called X" → Claude creates the folder, INDEX, and task list
+- "I want to track my learning in Y" → Claude sets up the area
+- "This project is done, archive it" → Claude reorganizes
 
-The `Templates/` folder contains scaffolding for:
-- Daily notes
-- Project INDEX files
-- Task lists
-- Area INDEX files
-
-Claude uses these automatically when creating new files.
+The system grows and restructures itself through conversation. Claude uses templates from `Templates/` automatically when scaffolding new files.
 
 ## Philosophy
 
+- **Self-organizing** — You never touch the file system. Claude creates, organizes, and restructures everything through conversation
 - **Start simple, add complexity only when patterns emerge** — If the same friction appears 3-4 times, then add structure
-- **AI amplifies your skills, doesn't replace them** — Claude handles organization; you provide content
 - **Navigation over search** — Direct paths are faster and more reliable than searching
 - **Linear access time** — Information can grow infinitely, but finding things stays constant-time
 

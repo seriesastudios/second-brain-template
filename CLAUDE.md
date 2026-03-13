@@ -94,6 +94,9 @@ When starting a substantive session, briefly scan for issues worth surfacing.
 - If nothing notable, say nothing — don't narrate the check
 - Offer to fix, don't auto-fix without permission
 
+**Example:**
+> "Heads up: Daily logs show Project X work yesterday but Task Management still shows it blocked. Also, the Website launch deadline is in 5 days. Want me to sync the task status?"
+
 ---
 
 ## Navigation Execution Protocol
@@ -113,6 +116,16 @@ The INDEX structure eliminates ambiguity. Trust it.
 - Synthesizing/analyzing what you found (after gathering data)
 - Handling genuine ambiguity (missing files, broken links, unclear user intent)
 - Making strategic decisions about complex queries requiring multiple areas
+
+**Examples — DON'T think:**
+- "Let me read the Projects INDEX" → Just read it
+- "I should follow the Tasks link" → Just follow it
+- "I'll check the latest updates" → Just use tail parameter
+
+**Examples — DO think:**
+- "User asked about 'that project' — which one?" → Think about context
+- "Three different areas might have this info" → Think about search strategy
+- "How do these development notes connect to the task list?" → Think about synthesis
 
 ---
 
